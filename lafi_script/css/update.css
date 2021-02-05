@@ -1,0 +1,76 @@
+* {
+  margin: auto;
+}
+
+body {
+  width: 400px;
+  background-image: url("LaFi/IMG/stripe.png");
+  background-repeat : no-repeat;
+  background-size : cover;
+}
+.userInfo {
+  margin-top: -30px;
+}
+td {
+  text-align: center;
+  width: 100px;
+  height: 20px;
+}
+
+table {
+  height: 600px;
+  width: 350px;
+  margin-top: 70px;
+}
+
+
+input, #nickName
+ {
+    background-color:transparent;
+    height: 30px;
+    width: 200px;
+    background-image: url("/LaFi/IMG/penliner_sky.png");
+    background-size: cover;
+    background-repeat: no-repeat; /*바둑판식 X*/
+    border: none; /*테두리*/
+
+}
+
+.button,
+input[type=submit] {
+  text-align: center;
+  background: url( "/LaFi/IMG/button.png" ) no-repeat;
+  background-size: contain;
+  border: none; /*테두리 유무*/
+  width: 105px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.back:hover {
+  /*마우스가 올라갔을 때 디자인*/
+  background-image: url("/LaFi/IMG/button_red.png");
+}
+.update:hover {
+  background-image: url("/LaFi/IMG/button_blue.png");
+}
+#background {
+    height: 650px;
+    position: relative;
+    background-image: url("/LaFi/IMG/paper.png");
+    -webkit-box-shadow: 0px 0px 17px -3px rgba(0,0,0,0.61);
+    -moz-box-shadow: 0px 0px 17px -3px rgba(0,0,0,0.61);
+    box-shadow: 0px 0px 17px -3px rgba(0,0,0,0.61);
+}
+.font,
+input[type=password]
+{
+    font-family: "DX경필명조B", serif;
+    font-weight: bold;
+}
+#button{
+    position: absolute;
+    left: 22%;
+    bottom: 5%;
+}

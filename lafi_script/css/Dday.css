@@ -1,0 +1,58 @@
+* {
+    text-align: center;
+    font-family: "DX경필명조B" , serif ;
+}
+
+body {
+    background-image: url('/LaFi/IMG/stripe.png');
+    background-repeat : no-repeat; /*이미지를 바둑판식으로 할것인가*/
+    background-size : cover;
+    margin-top: 100px;
+
+}
+
+div {
+    text-align: center;
+    margin: 0 auto;
+    background-image: url("/LaFi/IMG/postit_yellow.png");
+    background-size: cover;
+    background-color: transparent;
+
+    width: 400px;
+    height: 220px;
+    padding-top: 30px;
+    background-repeat : no-repeat;
+    /*그림자 코드*/
+    -webkit-box-shadow: 3px 30px 10px -15px rgba(0,0,0,0.49);
+     -moz-box-shadow: 3px 30px 10px -15px rgba(0,0,0,0.49);
+    box-shadow: 3px 30px 10px -15px rgba(0,0,0,0.49);
+
+}
+/* form {
+    margin-top: 30px;
+} */
+.d { text-align: center; margin: 0 auto;}
+.day {
+    margin-top: 10px;
+    width : 203px;
+    margin-bottom: 5px;
+    }
+.memo { width : 200px; height: 50px; }
+.submit, #back {
+    width: 105px;
+    height: 30px;
+    background-image: url('/LaFi/IMG/underliner.png');
+    background-repeat: no-repeat;;
+    background-size: cover;
+    background-color: transparent;
+}
+.submit:hover { /*마우스가 올라갔을 때 디자인*/
+    background-image: url('/LaFi/IMG/redpenO.png');
+    background-size: cover;
+    background-color: transparent;
+    cursor: pointer;
+   }
+input {
+    background-color: transparent;
+    border-color: transparent;
+}

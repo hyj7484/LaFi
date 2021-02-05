@@ -1,0 +1,22 @@
+body {
+    width: 400px;
+    height: 350px;
+    margin-top: 10%;
+    background-image: url(stripe.png);
+    background-repeat : no-repeat; /*이미지를 바둑판식으로 할것인가*/
+    background-size : cover; /*백그라운드 이미지를 크기에 맞게 늘리기*/
+    /*그림자 코드*/
+    -webkit-box-shadow: 10px 10px 10px -3px rgba(0,0,0,0.23);
+    -moz-box-shadow: 10px 10px 10px -3px rgba(0,0,0,0.23);
+    box-shadow: 10px 10px 10px -3px rgba(0,0,0,0.23);
+    
+}
+
+.backround
+{
+    padding-top: 26px;
+    background-image: url(paper.png);
+    background-size: contain; /*백그라운드 이미지를 크기에 맞게 줄이기*/
+    width: 400px;
+    height: 300px;
+}
