@@ -2,11 +2,11 @@ package LaFiProject;
 import java.awt.Image;
 import javax.swing.*;
 public class LaFi {
-	public static String imgURL = "/Users/hwang/eclipse-workspace/LaFi/Img/";
+	public static String imgURL = "/Users/hwang/Desktop/project/Lafi/LaFi/LaFi_java/Img/";
 	public static String LinkURL = "http://localhost:8080/lafi/JAVAPHP/";
 	
 	static void setBackGround(JPanel pn) {
-		
+		System.out.println("BackGround");
 		String imgName = "BackGround2.jpg";
 		ImageIcon Img = new ImageIcon(LaFi.imgURL+imgName);
 		Image getImg = Img.getImage();

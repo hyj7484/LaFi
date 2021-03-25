@@ -13,6 +13,7 @@ public class MainLogo{
 
 
 	MainLogo(){
+		System.out.println("Logo");
 		setPanel();
 		setLabel(Logo1,30,"Title.png");
 		setLabel(Logo2,300,"logo_login.png");

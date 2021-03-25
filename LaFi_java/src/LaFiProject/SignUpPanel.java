@@ -16,7 +16,7 @@ public class SignUpPanel {
 		btn.start();
 		LaFi.setBackGround(SignUpPanel);
 	}
-
+	
 	void setPanel() {
 		MainFrame.frame.add(SignUpPanel);
 		SignUpPanel.setLayout(null);

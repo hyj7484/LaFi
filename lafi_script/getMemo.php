@@ -1,7 +1,5 @@
-<div class="userInfo">
 <?php
 session_start();
-include_once("user.php");
 include_once("DBphp/DBConect.php");
 if($_POST['sendYear'] != ''){
   unset($_SESSION['today']);
@@ -10,7 +8,6 @@ if($_POST['sendYear'] != ''){
 $getYear = $_SESSION['today'];
 $getNum = $_SESSION['Num'];
 ?>
-</div>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -22,7 +19,11 @@ $getNum = $_SESSION['Num'];
     <link rel="stylesheet" href="css/getMemo.css">
   </head>
   <body>
-
+    <div class="userInfo">
+    <?php
+    include_once("user.php");
+    ?>asdf
+    </div>
 
 <div id="background">
   <div>

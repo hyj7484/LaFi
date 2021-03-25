@@ -3,7 +3,8 @@
     font-family: "DX경필명조B", serif;
 }
 .userInfo {
-    margin-top: 80px;
+    margin-top: 50px;
+    width: 500px;
   }
 body {
     width: 400px;

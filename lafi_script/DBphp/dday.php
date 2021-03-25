@@ -15,7 +15,6 @@ if(1 == $getDB['usedday']){
   $query_update = "UPDATE dday set date='$getDay', memo='$getMemo' where getnum = '$getNum'";
   $result = mysqli_query($conn, $query_update);
   // $getDB = mysqli_fetch_array($result);
-  if($result){echo "???";}else{ echo "?!?!?!?!?";}
 }else{
 // INSERT
   $query_insert = "INSERT INTO dday(getnum, date, memo, usedday)
